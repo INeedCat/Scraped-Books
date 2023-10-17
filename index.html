@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        font-size: 1.1em;
+    }
+
+    body{
+        margin:0;
+        padding:0;
+        background-color: rgb(39, 39, 39);
+        color: black;
+        width:100%;
+        height:100%;
+        display:flex;
+        justify-content: center;
+    }
+
+    a{
+        margin: 50px;
+        color: black;
+        height:5em;
+        width: 25%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px dashed white;
+        border-radius: 15px;
+        box-shadow: 2px 5px;
+        transition: box-shadow ease-in-out .25s;
+    }
+
+    a:hover{
+        box-shadow:12px 15px;
+    }
+
+    .scythe{
+        background-image: url("scythe.png");
+        background-repeat: no-repeat;
+        background-position: center 5%;
+        background-size:115%;
+    }
+
+    .thunderhead{
+        background-image: url("thunderhead.jpg");
+        background-repeat: no-repeat;
+        background-position: center 5%;
+        background-size:105%;
+    }
+</style>
+<body>
+    <a class="scythe" href="Scythe.html">
+        <div class="scythe"></div>
+    </a>
+
+    <a class="thunderhead" href="thunderhead.html">
+        <div class="thunderhead"></div>
+    </a>
+</body>
+</html>
